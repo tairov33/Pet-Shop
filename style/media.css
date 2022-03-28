@@ -1,0 +1,403 @@
+@media(max-width:1220px) {
+    
+    .dog_info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .category_title{
+        padding-top: 40px;
+    }
+    .dog_info{
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    .product_title{
+        padding-top: 40px;
+    }
+    .product_info{
+        margin-top: 40px;
+    }
+    .product_item{
+        margin-bottom: 40px;
+    }
+    .spes_title{
+        padding-top: 40px;
+    }
+}
+@media(max-width:1210px) {
+    .spes_info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .spescont_item:nth-of-type(2){
+        margin-top: 20px;
+    }
+    .forcolumn{
+        display: flex;
+        flex-direction: column;
+        overflow-x: auto;
+    }
+    .veter_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:1199px) {
+    .register_title{
+        margin-bottom: 15px;
+    }
+    .logcod{
+        margin-top: 10px;
+    }
+    .product_info{
+        flex-direction: column;
+    }
+    .nav{
+        padding-top: 10px;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        backdrop-filter: blur(20px);
+    }
+    .intro{
+        padding-top: 100px;
+    }
+    .menu1__icon{
+        background-color: #6d5f2d;
+    }
+    .menu1 {
+        display: flex;
+    }
+
+    .menu {
+        width: 45px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+
+    .menu__icon {
+        background-color: white;
+        height: 2px;
+        width: 23px;
+        display: block;
+        transition: 0.5s;
+        position: absolute;
+    }
+
+    .menu__icon:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .menu__icon:nth-of-type(1) {
+        transform: rotate(45deg);
+    }
+
+    .menu__icon:nth-of-type(3) {
+        transform: rotate(-45deg);
+    }
+
+    .formed {
+        transform: translateX(-100%);
+        height: 100vh;
+        width: 280px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        background-color: #2D2D2D;
+        z-index: 99;
+        overflow-y: auto;
+    }
+    .nav__list {
+        margin-top: 160px;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 40px;
+    }
+    .nav__link:hover{
+        color: #F4CB38;
+    }
+    .sectext{
+        display: flex;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    
+    .heart{
+        border-top: 1px solid #555252;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 40px;
+        position: absolute;
+        top: 55px;
+    }
+    .call{
+        border-top: 1px solid #555252;
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+    .dropdown{
+        position: absolute;
+        top: 75px;
+        left: 130px;
+    }
+    .nav__link {
+        color: white;
+        transition: .5s;
+    }
+
+
+    .call:hover {
+        color: white;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+
+
+
+    .media_title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .title_link {
+        margin: 0 auto;
+    }
+}
+@media(max-width:992px) {
+    .spes_info{
+        margin-bottom: 40px;
+    }
+    .carousel{
+        flex-direction: column-reverse;
+    }
+    .title{
+        margin-top: 30px;
+    }
+    .title_link{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:700px) {
+    .title_text {
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .veter {
+        padding: 70px 0;
+    }
+
+    .title_link {
+        height: 60px;
+        font-size: 16px;
+    }
+
+    .veter_info {
+        margin-top: 70px;
+    }
+}
+
+@media(max-width:600px) {
+    .product_media{
+        flex-direction: column;
+    }
+    .spescont_item{
+        flex-direction: column;
+    }
+    
+    .veter_item_title {
+        margin-top: 28px;
+    }
+
+    .veter {
+        padding: 60px 0;
+    }
+
+    .phoning {
+        height: 22px;
+    }
+
+    .telling {
+        height: 22px;
+        width: 22px;
+    }
+
+    .veter_info {
+        margin-top: 60px;
+    }
+    .category_title{
+        font-size: 26px;
+    }
+    .title_link{
+        width: 180px;
+    }
+    .animal_item{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:500px) {
+    .veter_item_title {
+        margin-top: 20px;
+    }
+
+    .veter_info {
+        margin-top: 40px;
+    }
+
+    .veter {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:500px) {
+
+    .title_link {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .nav__list {
+        padding: 20px;
+    }
+
+    .veter_item_title {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .veter_text {
+        font-size: 14px;
+    }
+
+    .phoning {
+        height: 18px;
+    }
+
+    .telling {
+        height: 18px;
+        width: 18px;
+    }
+}
+
+@media(max-width:450px) {
+    .title{
+        font-size: 25px;
+    }
+    .title_text{
+        font-size: 15px;
+    }
+    .title_link{
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+@media(max-width:470px) {
+    .veter_link {
+        font-size: 12px;
+    }
+
+    .veter_item_title {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .veter_text {
+        font-size: 10px;
+    }
+
+    .veter {
+        padding: 40px 0;
+    }
+}
+
+@media(max-width:400px) {
+    .veter_icons {
+        font-size: 12px;
+    }
+
+    .veter_info {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:360px) {
+    .phoning {
+        height: 16px;
+    }
+
+    .telling {
+        height: 16px;
+        width: 16px;
+        font-size: 14px;
+    }
+
+    .veter_item {
+        gap: 15px;
+    }
+
+    .veter_link {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .veter_item_title {
+        margin-top: 18px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:280px) {
+    .title_link{
+        margin-top: 20px;
+    }
+}
+@media(max-width:320px) {
+    .veter {
+        padding: 20px 0;
+    }
+
+    .phoning {
+        height: 15px;
+    }
+
+    .telling {
+        height: 15px;
+        width: 15px;
+        font-size: 12px;
+    }
+
+    .title_link {
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    .veter_item_title {
+        margin-top: 14px;
+        font-size: 10px;
+    }
+
+    .veter_icons {
+        font-size: 10px;
+    }
+
+    .veter_item {
+        gap: 8px;
+    }
+
+    .telling {
+        top: 0px;
+        right: 14px;
+    }
+}
